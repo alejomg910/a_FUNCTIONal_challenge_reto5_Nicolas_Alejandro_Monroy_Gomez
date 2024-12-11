@@ -1,7 +1,6 @@
 # reto5_Nicolas_Alejandro_MonroyGomez
 
-## Reto 5
-Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo y subalo al canal reto_6 en slack.
+Para este reto 5 tenemos que desarrollar los siguientes ejercicios, donde los 5 primeros hay que desarrollarlos en un archivod e python cada uno, y los ultimos dos son de consulta.
 
 1. Dado la figura de la imagen, desarrolle:
 
@@ -34,8 +33,37 @@ Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa 
   + El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
   + La potencia del mayor número elevado al menor número
   + La raíz cúbica del menor número
-
+---
 6. Consultar qué es y cómo funciona *pip* en python.
 
-7. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
+¿Qué es _pip_?: _pip_ (o Package Installer for Python) es un gestor de paquetes de Python. Basicamente es una herramienta que permite administrar paquetes que no vienen instalados por defecto en python, evitando procesos extra de desintalación o actualización de forma manual. Además de eso, no lo hace de manera local para un proyecto, sino que lo hace de manera global para Python. Funciona de una manera similar que el `import math` que usamos en este reto.
 
+7. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
+Para instalarlos, lo primero es verificar si el _pip_ viene ya instalado (que al descargar Python se instala automaticamente), si no esta instalado slo hay que descargar el fichero que corresponde a la ultima version de pip, abrir la terminal y ejecutar el siguiente codigo en la carpeta donde quedo guardado el fichero:
+
+```
+pip install pip
+```
+
+Luego de eso, para instalar el paquete que se desea, se ejecuta el siguiente código:
+
+```
+pip install <Nombre_modulo>
+```
+
+Los modulos mas populares para python son los siguientes:
+- Matplotlib
+- TensorFlow
+- PyTorch
+- Keras
+- Scikit-learn
+- Pandas
+- Seaborn
+- Bokeh
+- NumPy
+
+Fuentes:
++ https://immune.institute/blog/librerias-python-que-son/
++ https://medium.com/@shaloomathew/pip-in-python-b4a4e49a4a85
++ https://www.datacamp.com/es/tutorial/pip-python-package-manager
++ https://pip.pypa.io/en/stable/getting-started/
