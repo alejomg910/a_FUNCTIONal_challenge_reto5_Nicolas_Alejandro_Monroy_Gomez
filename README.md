@@ -1,4 +1,4 @@
-# reto5_Nicolas_Alejandro_MonroyGomez
+# Reto_5_Nicolás_Alejandro_Monroy_Gómez
 
 Para este reto 5 tenemos que desarrollar los siguientes ejercicios, donde los 5 primeros hay que desarrollarlos en un archivod e python cada uno, y los ultimos dos son de consulta.
 
